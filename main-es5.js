@@ -994,7 +994,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-header"]],
       decls: 23,
       vars: 0,
-      consts: [[1, "navbar", "navbar-inverse", "navbar-static-top"], [1, "container"], [1, "navbar-header"], ["type", "button", "data-toggle", "collapse", "data-target", ".navbar-collapse", 1, "navbar-toggle"], [1, "icon-bar"], ["href", "/personalBlog/#/home", 1, "navbar-brand"], [1, "navbar-collapse", "collapse"], [1, "nav", "navbar-nav", "navbar-right"], ["href", "/personalBlog/#/home", 1, "nav-link"], ["href", "/personalBlog/#/bio", 1, "nav-link"], ["href", "/personalBlog/#/blogs", 1, "nav-link"], ["href", "/personalBlog/#/contact", 1, "nav-link"]],
+      consts: [[1, "navbar", "navbar-inverse", "navbar-static-top"], [1, "container"], [1, "navbar-header"], ["type", "button", "data-toggle", "collapse", "data-target", ".navbar-collapse", 1, "navbar-toggle"], [1, "icon-bar"], ["href", "/#/home", 1, "navbar-brand"], [1, "navbar-collapse", "collapse"], [1, "nav", "navbar-nav", "navbar-right"], ["href", "/#/home", 1, "nav-link"], ["href", "/#/bio", 1, "nav-link"], ["href", "/#/blogs", 1, "nav-link"], ["href", "/#/contact", 1, "nav-link"]],
       template: function HeaderComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
