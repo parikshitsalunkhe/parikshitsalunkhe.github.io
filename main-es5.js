@@ -489,7 +489,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       function ContactComponent() {
         _classCallCheck(this, ContactComponent);
 
-        this.isProduction = true;
+        this.isProduction = false;
         this.imagePathFacebook = '';
         this.imagePathInsta = '';
         this.imagePathTwitter = '';
@@ -1124,7 +1124,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       function HomeComponent() {
         _classCallCheck(this, HomeComponent);
 
-        this.isProduction = true;
+        this.isProduction = false;
         this.imgPath = '';
       }
 
@@ -1151,7 +1151,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-home"]],
       decls: 95,
       vars: 1,
-      consts: [["id", "ww"], [1, "container"], [1, "row"], [1, "col-lg-8", "col-lg-offset-2", "centered"], ["alt", "Parikshit", 3, "src"], [1, "container", "pt"], [1, "row", "mt", "centered"], [1, "col-lg-3"], [1, "glyphicon", "glyphicon-fire"], [1, "glyphicon", "glyphicon-book"], [1, "glyphicon", "glyphicon-euro"], [1, "glyphicon", "glyphicon-tasks"], [1, "row", "mt"], [1, "col-lg-6"], ["href", "http://www.sevenseas-intl.com/assets/parikshitPortfolio/ParikshitSalunkhe_CV.pdf", "download", "Parikshit-CV", "target", "_blank"], ["type", "button", "value", "DOWNLOAD CV", 1, "btn", "btn-large", 2, "background-color", "#1abc9c", "color", "white", "font-weight", "bold"], [1, "progress"], ["role", "progressbar", "aria-valuenow", "83", "aria-valuemin", "0", "aria-valuemax", "100", 1, "progress-bar", "progress-bar-theme", 2, "width", "83%"], [1, "sr-only"], ["role", "progressbar", "aria-valuenow", "80", "aria-valuemin", "0", "aria-valuemax", "100", 1, "progress-bar", "progress-bar-theme", 2, "width", "80%"], ["role", "progressbar", "aria-valuenow", "93", "aria-valuemin", "0", "aria-valuemax", "100", 1, "progress-bar", "progress-bar-theme", 2, "width", "93%"], ["role", "progressbar", "aria-valuenow", "95", "aria-valuemin", "0", "aria-valuemax", "100", 1, "progress-bar", "progress-bar-theme", 2, "width", "95%"], ["role", "progressbar", "aria-valuenow", "86", "aria-valuemin", "0", "aria-valuemax", "100", 1, "progress-bar", "progress-bar-theme", 2, "width", "86%"], ["role", "progressbar", "aria-valuenow", "90", "aria-valuemin", "0", "aria-valuemax", "100", 1, "progress-bar", "progress-bar-theme", 2, "width", "90%"], ["role", "progressbar", "aria-valuenow", "55", "aria-valuemin", "0", "aria-valuemax", "100", 1, "progress-bar", "progress-bar-theme", 2, "width", "55%"]],
+      consts: [["id", "ww"], [1, "container"], [1, "row"], [1, "col-lg-8", "col-lg-offset-2", "centered"], ["alt", "Parikshit", 3, "src"], [1, "container", "pt"], [1, "row", "mt", "centered"], [1, "col-lg-3"], [1, "glyphicon", "glyphicon-fire"], [1, "glyphicon", "glyphicon-book"], [1, "glyphicon", "glyphicon-euro"], [1, "glyphicon", "glyphicon-tasks"], [1, "row", "mt"], [1, "col-lg-6"], ["href", "../../assets/files/ParikshitSalunkhe_CV.pdf", "download", "Parikshit-CV", "target", "_blank"], ["type", "button", "value", "DOWNLOAD CV", 1, "btn", "btn-large", 2, "background-color", "#1abc9c", "color", "white", "font-weight", "bold"], [1, "progress"], ["role", "progressbar", "aria-valuenow", "83", "aria-valuemin", "0", "aria-valuemax", "100", 1, "progress-bar", "progress-bar-theme", 2, "width", "83%"], [1, "sr-only"], ["role", "progressbar", "aria-valuenow", "80", "aria-valuemin", "0", "aria-valuemax", "100", 1, "progress-bar", "progress-bar-theme", 2, "width", "80%"], ["role", "progressbar", "aria-valuenow", "93", "aria-valuemin", "0", "aria-valuemax", "100", 1, "progress-bar", "progress-bar-theme", 2, "width", "93%"], ["role", "progressbar", "aria-valuenow", "95", "aria-valuemin", "0", "aria-valuemax", "100", 1, "progress-bar", "progress-bar-theme", 2, "width", "95%"], ["role", "progressbar", "aria-valuenow", "86", "aria-valuemin", "0", "aria-valuemax", "100", 1, "progress-bar", "progress-bar-theme", 2, "width", "86%"], ["role", "progressbar", "aria-valuenow", "90", "aria-valuemin", "0", "aria-valuemax", "100", 1, "progress-bar", "progress-bar-theme", 2, "width", "90%"], ["role", "progressbar", "aria-valuenow", "55", "aria-valuemin", "0", "aria-valuemax", "100", 1, "progress-bar", "progress-bar-theme", 2, "width", "55%"]],
       template: function HomeComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
