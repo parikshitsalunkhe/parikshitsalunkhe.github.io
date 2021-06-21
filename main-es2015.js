@@ -250,8 +250,8 @@ class ContactComponent {
         if (this.isProduction) {
             this.imagePathFacebook = this.prodURL + 'facebook.jpg';
             this.imagePathInsta = this.prodURL + 'Insta.jpg';
-            this.imagePathTwitter = this.prodURL + 'twitter.png';
-            this.imagePathLinkedIn = this.prodURL + 'Linkedin.jpg';
+            this.imagePathTwitter = 'https://drive.google.com/file/d/1205YiDtZWjb69TTTeBp5Ncsw_y2h0ny1';
+            this.imagePathLinkedIn = 'https://drive.google.com/file/d/1Pi2wcoLG3mQUBtP8whl0sC-oP_q_gGvk';
         }
         else {
             this.imagePathFacebook = '../assets/images/facebook.jpg';
@@ -380,9 +380,10 @@ class FooterComponent {
     ngOnInit() {
         if (this.isProduction) {
             this.imgBadgePath =
-                'http://www.sevenseas-intl.com/assets/parikshitPortfolio/AZ204.png';
+                'https://drive.google.com/file/d/1wLcstHDDN-Zjk0RjVzFfu3KCEa64Xxah';
             this.imgAZ900BadgePath =
-                'http://www.sevenseas-intl.com/assets/parikshitPortfolio/AZ900.png';
+                'https://drive.google.com/file/d/1pVPMQreAJS24GOG9U4MageWVl_UEutB9';
+            // 'http://www.sevenseas-intl.com/assets/parikshitPortfolio/AZ900.png';
         }
         else {
             this.imgBadgePath = '../../assets/images/AZ204.png';
@@ -547,7 +548,8 @@ class HomeComponent {
     ngOnInit() {
         if (this.isProduction) {
             this.imgPath =
-                'http://www.sevenseas-intl.com/assets/parikshitPortfolio/IMGDP_1234.png';
+                'https://drive.google.com/file/d/1A5EIJ4YC6O02TG7KJKCfTR_vwjR0VrtM';
+            //'http://www.sevenseas-intl.com/assets/parikshitPortfolio/IMGDP_1234.png';
         }
         else {
             this.imgPath = '../../assets/images/IMGDP_1234.png';
