@@ -244,14 +244,14 @@ class ContactComponent {
         this.imagePathInsta = '';
         this.imagePathTwitter = '';
         this.imagePathLinkedIn = '';
-        this.prodURL = 'http://www.sevenseas-intl.com/assets/parikshitPortfolio/';
+        this.prodURL = 'https://parikshit-salunkhe.com/assets/images/';
     }
     ngOnInit() {
         if (this.isProduction) {
             this.imagePathFacebook = this.prodURL + 'facebook.jpg';
             this.imagePathInsta = this.prodURL + 'Insta.jpg';
-            this.imagePathTwitter = 'https://drive.google.com/file/d/1205YiDtZWjb69TTTeBp5Ncsw_y2h0ny1';
-            this.imagePathLinkedIn = 'https://drive.google.com/file/d/1Pi2wcoLG3mQUBtP8whl0sC-oP_q_gGvk';
+            this.imagePathTwitter = this.prodURL + 'twitter.png';
+            this.imagePathLinkedIn = this.prodURL + 'Linkedin.jpg';
         }
         else {
             this.imagePathFacebook = '../assets/images/facebook.jpg';
@@ -380,9 +380,9 @@ class FooterComponent {
     ngOnInit() {
         if (this.isProduction) {
             this.imgBadgePath =
-                'https://drive.google.com/file/d/1wLcstHDDN-Zjk0RjVzFfu3KCEa64Xxah';
+                'https://parikshit-salunkhe.com/assets/images/AZ204.png';
             this.imgAZ900BadgePath =
-                'https://drive.google.com/file/d/1pVPMQreAJS24GOG9U4MageWVl_UEutB9';
+                'https://parikshit-salunkhe.com/assets/images/AZ900.png';
             // 'http://www.sevenseas-intl.com/assets/parikshitPortfolio/AZ900.png';
         }
         else {
@@ -548,7 +548,7 @@ class HomeComponent {
     ngOnInit() {
         if (this.isProduction) {
             this.imgPath =
-                'https://drive.google.com/file/d/1A5EIJ4YC6O02TG7KJKCfTR_vwjR0VrtM';
+                'https://parikshit-salunkhe.com/assets/images/IMGDP_1234.png';
             //'http://www.sevenseas-intl.com/assets/parikshitPortfolio/IMGDP_1234.png';
         }
         else {
